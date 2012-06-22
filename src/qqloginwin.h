@@ -50,10 +50,6 @@ private slots:
     void currentUserChanged(QString text);
     void idChanged(QString text);
 
-    void on_label_register_linkActivated(const QString &link);
-
-    void on_label_findback_linkActivated(const QString &link);
-
 private:
     void setupStatus();
     void checkAccoutStatus();

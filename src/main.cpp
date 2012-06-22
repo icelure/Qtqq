@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
     QApplication a(argc, argv);
     QTranslator translator( 0 );
     translator.load( "cn.qm", "." );
-    app.installTranslator( &translator );
+    a.installTranslator( &translator );
 
     Log4Qt::LogManager::setHandleQtMessages(true);
     Log4Qt::PropertyConfigurator::configure("log4qt.conf");
